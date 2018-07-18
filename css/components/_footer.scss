@@ -1,0 +1,15 @@
+@import "colors";
+
+section#footer{
+  height: 8vh;
+  background-color: map-get($colors, color5);
+  border-bottom: 1px solid black;
+  font-size: 1.5em;
+  color: white;
+  .footerBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
