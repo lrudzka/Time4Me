@@ -24,7 +24,7 @@ class Introduction extends React.Component {
     }
 
     componentDidMount() {
-        setTimeout( () => {this.intervalId = setInterval( () => {
+        this.intervalId = setInterval( () => {
             if (this.state.counter <11) {
                 this.setState({
                     myText1: myCode.slice(0,this.state.counter)
@@ -74,8 +74,7 @@ class Introduction extends React.Component {
                 counter: this.state.counter+1
             })
 
-        } ,100)},1000);
-
+        } ,100);
 
     }
 
