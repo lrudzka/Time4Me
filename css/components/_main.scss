@@ -42,11 +42,36 @@ section#body{
     }
   }
   section#portfolio {
-    padding-left: 1em;
+    padding: 1em;
     background: linear-gradient(to bottom, map-get($colors, color4) 0%, white 100% );
     ul {
       list-style-type: none;
       li {
+        margin-top: 0.5em;
+        h4 {
+          margin-bottom: 0.3em;
+          margin-right: 0.4em;
+        }
+        div.link {
+          float: left;
+          font-size: 0.6em;
+          margin-right: 0.6em;
+          a, a:visited {
+            color: white;
+            background-color: map-get($colors, color5);
+            text-decoration: none;
+            padding: 0.2em;
+          }
+        }
+        div.code {
+          font-size: 0.6em;
+          a, a:visited {
+            background-color: map-get($colors, color5);
+            color: white;
+            text-decoration: none;
+            padding: 0.2em;
+          }
+        }
         div.react, div.js {
           float: left;
           width: 1em;
@@ -60,13 +85,21 @@ section#body{
         div.js {
           background-image: url("../img/js.png");
         }
+        div.brief {
+          font-size: 0.8em;
+          font-weight: bold;
+          margin-bottom: 0.5em;
+          margin-top: 0.4em;
+        }
+        div.description {
+          font-size: 0.8em;
+          text-align: justify;
+          margin-top: 0.5em;
+        }
       }
     }
   }
   section#languages {
-    //padding-left: 1em;
-    //padding-top: 2em;
-    //padding-bottom: 2em;
     padding: 1em;
     background-color: map-get($colors, color5);
     div {
