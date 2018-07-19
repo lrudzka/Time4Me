@@ -30,7 +30,7 @@ section#body{
     padding-top: 1em;
     padding-left: 1em;
     height: 18em;
-    background: linear-gradient(to bottom, map-get($colors, color1) 0%, map-get($colors, color3) 100% ) ;
+    background: linear-gradient(to right, map-get($colors, color1) 0%, white 100% ) ;
     div.row {
       float: clear;
       margin-bottom: 0.3em;
@@ -43,11 +43,11 @@ section#body{
   }
   section#portfolio {
     padding: 1em;
-    background: linear-gradient(to bottom, map-get($colors, color4) 0%, white 100% );
+    background: linear-gradient(to right, map-get($colors, color4) 0%, white 100% );
     ul {
       list-style-type: none;
       li {
-        margin-top: 0.5em;
+        margin-top: 1em;
         h4 {
           margin-bottom: 0.3em;
           margin-right: 0.4em;
@@ -55,19 +55,21 @@ section#body{
         div.link {
           float: left;
           font-size: 0.6em;
-          margin-right: 0.6em;
+          margin-left: 10px;
+          margin-right: 0.5em;
           a, a:visited {
-            color: white;
-            background-color: map-get($colors, color5);
+            color: map-get($colors, color5);
+            background-color: map-get($colors, color3);
             text-decoration: none;
             padding: 0.2em;
           }
         }
         div.code {
           font-size: 0.6em;
+          margin-left: 10px;
           a, a:visited {
-            background-color: map-get($colors, color5);
-            color: white;
+            background-color:map-get($colors, color3);
+            color: map-get($colors, color5);
             text-decoration: none;
             padding: 0.2em;
           }
@@ -90,18 +92,30 @@ section#body{
           font-weight: bold;
           margin-bottom: 0.5em;
           margin-top: 0.4em;
+          margin-left: 10px;
         }
         div.description {
           font-size: 0.8em;
           text-align: justify;
           margin-top: 0.5em;
+          margin-left: 10px;
+        }
+        button.moreInfo {
+          width: 5em;
+          height: 1.5em;
+          background-color: map_get($colors, color1);
+          //border: 1px solid map_get($colors, color5);
+          border-radius: 0.5em;
+          color: white;
+          margin-left: 10px;
+          margin-top: 5px;
         }
       }
     }
   }
   section#languages {
     padding: 1em;
-    background-color: map-get($colors, color5);
+    background-color: map-get($colors, color5) ;
     div {
       margin-top: 0.5em;
       margin-bottom: 0.5em;

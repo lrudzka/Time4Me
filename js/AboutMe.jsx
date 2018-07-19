@@ -17,12 +17,15 @@ class AboutMe extends React.Component{
         }
     }
 
+    startIntroduction = '1';
+
     handleClickLvl1 = () => {
         if (this.state.lvl1 === 0) {
             this.setState({
                 lvl1: 1
             })
         } else {
+            this.startIntroduction = '0';
             this.setState({
                 lvl1: 0
             })
@@ -121,11 +124,11 @@ class AboutMe extends React.Component{
         if (this.state.lvl6 ===1){
             style7 = {marginTop: 0}
         }
-
+        console.log('intro=', this.startIntroduction)
         return(
             <section id="body">
                 <div className="line"><div onClick = {this.handleClickLvl1} className="pointer">PREFACE</div></div>
-                {this.state.lvl1 ===1 && <Introduction/> }
+                {this.state.lvl1 ===1 && <Introduction start={this.startIntroduction} /> }
                 <div style = {style2}  className="line"><div onClick = {this.handleClickLvl2} className="pointer">MY PORTFOLIO</div></div>
                 {this.state.lvl2 ===1 && <Portfolio/>}
                 <div style = {style3}  className="line"><div onClick = {this.handleClickLvl3} className="pointer">JOB EXPERIENCE</div></div>

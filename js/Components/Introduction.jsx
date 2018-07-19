@@ -2,28 +2,29 @@ import React from 'react';
 
 let myCode = "let me = {name: 'Lucyna Rudzka',qualification: 'Junior Front-end Developer', technologies: ['JavaScript', 'HTML5', 'CSS', 'Sass', " +
     "'React'],codingExperience: ['PL/SQL', 'VBA'],status: 'looking for a job' }; let hire = newEmployee => { let result = " +
-    "(newEmployee === me)? 'success' : 'mistake';return result;};";
+    "newEmployee === me? 'success' : 'mistake';return result;};";
 
 class Introduction extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            myText1: "",
-            myText2: "",
-            myText3: "",
-            myText4: "",
-            myText5: "",
-            myText6: "",
-            myText7: "",
-            myText8: "",
-            myText9: "",
-            myText10: "",
-            myText11: "",
+            myText1: this.props.start === '1' ? "": "let me = {",
+            myText2: this.props.start === '1' ? "": "name: 'Lucyna Rudzka',",
+            myText3: this.props.start === '1' ? "": "qualification: 'Junior Front-end Developer',",
+            myText4: this.props.start === '1' ? "": "technologies: ['JavaScript', 'HTML5', 'CSS', 'Sass', 'React'],",
+            myText5: this.props.start === '1' ? "": "codingExperiences: ['PL/SQL', 'VBA'],",
+            myText6: this.props.start === '1' ? "": "status: 'looking for a job'",
+            myText7: this.props.start === '1' ? "": "};",
+            myText8: this.props.start === '1' ? "": "let hire = newEmployee => {",
+            myText9: this.props.start === '1' ? "": "let result = newEmployee === me? 'success' : 'mistake';",
+            myText10: this.props.start === '1' ? "": "return result;",
+            myText11: this.props.start === '1' ? "": "};",
             counter: 0
         }
     }
 
     componentDidMount() {
+        if (this.props.start === '1') {
         this.intervalId = setInterval( () => {
             if (this.state.counter <11) {
                 this.setState({
@@ -57,24 +58,24 @@ class Introduction extends React.Component {
                 this.setState({
                     myText8: myCode.slice(205, this.state.counter)
                 })
-            } else if (this.state.counter < 292 ){
+            } else if (this.state.counter < 290 ){
                 this.setState({
                     myText9: myCode.slice(234, this.state.counter)
                 })
+            } else if (this.state.counter < 304 ){
+                this.setState({
+                    myText10: myCode.slice(289, this.state.counter)
+                })
             } else if (this.state.counter < 306 ){
                 this.setState({
-                    myText10: myCode.slice(291, this.state.counter)
-                })
-            } else if (this.state.counter < 308 ){
-                this.setState({
-                    myText11: myCode.slice(305, this.state.counter)
+                    myText11: myCode.slice(303, this.state.counter)
                 })
             }
             this.setState({
                 counter: this.state.counter+1
             })
 
-        } ,100);
+        } ,100); }
 
     }
 
