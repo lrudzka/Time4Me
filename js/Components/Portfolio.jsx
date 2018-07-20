@@ -4,6 +4,7 @@ class Portfolio extends React.Component {
     constructor(props){
         super(props);
         this.state = {
+            li: 1,
             more1: 0,
             more2: 0,
             more3: 0,
@@ -60,7 +61,27 @@ class Portfolio extends React.Component {
         }
     }
 
+    componentDidMount() {
+        this.intervalId = setInterval( () => {
+            this.setState({
+                li: this.state.li + 1
+            })
+        },400)
+
+    };
+
+    componentDidUpdate() {
+        if (this.state.li === 4) {
+            clearInterval(this.intervalId);
+        }
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.intervalId);
+    }
+
     render(){
+        console.log(this.state.li);
         return(
             <section id="portfolio">
                 <section className="mainWidth">
@@ -83,11 +104,11 @@ class Portfolio extends React.Component {
                                 Every year we watch together Champions League tournament, and we type the metches' results.
                                 We have our own system of scoring, and I have implemented this scoring system to my application.
                                 We have typed using my application during the World Cup in Russia, and we will use the application during the incoming Champions League.
-                                It was a great fun to make something I'm really going to use.
+                                It was a great pleasure to make something I'm really going to use.
                             </div>}
                             <button className="moreInfo" onClick={this.handleMoreInfo1}>{this.state.more1 === 0 ? <span>MORE</span> : <span>LESS</span>}</button>
                         </li>
-                        <li>
+                        {this.state.li>1 && <li>
                             <div className="react"></div>
                             <h4>Time4Play</h4>
                             <div className='brief'>
@@ -106,7 +127,8 @@ class Portfolio extends React.Component {
                                 10 attemps of answering - React was a good tool for making all the above alive.
                             </div>}
                             <button className="moreInfo" onClick={this.handleMoreInfo2}>{this.state.more2 === 0 ? <span>MORE</span> : <span>LESS</span>}</button>
-                        </li>
+                        </li>}
+                        {this.state.li>2 &&
                         <li>
                             <div className="react"></div>
                             <h4>Time4Me</h4>
@@ -121,7 +143,8 @@ class Portfolio extends React.Component {
                                 To create the site about me I have used React, because React is a great tool, and I like it more and more with every code I write using it.
                             </div>}
                             <button className="moreInfo" onClick={this.handleMoreInfo3}>{this.state.more3 === 0 ? <span>MORE</span> : <span>LESS</span>}</button>
-                        </li>
+                        </li>}
+                        {this.state.li > 3 &&
                         <li>
                             <div className="js"></div>
                             <h4>GameOfLife</h4>
@@ -144,7 +167,7 @@ class Portfolio extends React.Component {
                                 the current state while the game is paused. I have created the application using object-oriented JavaScript.
                             </div>}
                             <button className="moreInfo" onClick={this.handleMoreInfo4}>{this.state.more4 === 0 ? <span>MORE</span> : <span>LESS</span>}</button>
-                        </li>
+                        </li>}
                     </ul>
                 </section>
             </section>

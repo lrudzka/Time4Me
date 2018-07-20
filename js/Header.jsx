@@ -6,7 +6,7 @@ class Header extends React.Component{
         return(
             <section id='header'>
                 <div className='mainWidth'>
-                    <p> Let me <span className='color'> introduce  </span> myself </p>
+                    <p> let me <span className='color'> introduce  </span> myself... </p>
                 </div>
             </section>
         )

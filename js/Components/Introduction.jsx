@@ -1,7 +1,7 @@
 import React from 'react';
 
 let myCode = "let me = {name: 'Lucyna Rudzka',qualification: 'Junior Front-end Developer', technologies: ['JavaScript', 'HTML5', 'CSS', 'Sass', " +
-    "'React'],codingExperience: ['PL/SQL', 'VBA'],status: 'looking for a job' }; let hire = newEmployee => { let result = " +
+    "'React', 'JQuery'],codingExperience: ['PL/SQL', 'VBA'],status: 'looking for a job' }; let hire = newEmployee => { let result = " +
     "newEmployee === me? 'success' : 'mistake';return result;};";
 
 class Introduction extends React.Component {
@@ -11,7 +11,7 @@ class Introduction extends React.Component {
             myText1: this.props.start === '1' ? "": "let me = {",
             myText2: this.props.start === '1' ? "": "name: 'Lucyna Rudzka',",
             myText3: this.props.start === '1' ? "": "qualification: 'Junior Front-end Developer',",
-            myText4: this.props.start === '1' ? "": "technologies: ['JavaScript', 'HTML5', 'CSS', 'Sass', 'React'],",
+            myText4: this.props.start === '1' ? "": "technologies: ['JavaScript', 'HTML5', 'CSS', 'Sass', 'React', 'JQuery'],",
             myText5: this.props.start === '1' ? "": "codingExperiences: ['PL/SQL', 'VBA'],",
             myText6: this.props.start === '1' ? "": "status: 'looking for a job'",
             myText7: this.props.start === '1' ? "": "};",
@@ -38,37 +38,37 @@ class Introduction extends React.Component {
                 this.setState({
                     myText3: myCode.slice(32, this.state.counter)
                 })
-            } else if (this.state.counter < 140 ){
+            } else if (this.state.counter < 150 ){
                 this.setState({
                     myText4: myCode.slice(76, this.state.counter)
                 })
-            } else if (this.state.counter < 176 ){
+            } else if (this.state.counter < 186 ){
                 this.setState({
-                    myText5: myCode.slice(139, this.state.counter)
+                    myText5: myCode.slice(149, this.state.counter)
                 })
-            } else if (this.state.counter < 203 ){
+            } else if (this.state.counter < 213 ){
                 this.setState({
-                    myText6: myCode.slice(175, this.state.counter)
+                    myText6: myCode.slice(185, this.state.counter)
                 })
-            } else if (this.state.counter < 206 ){
+            } else if (this.state.counter < 216 ){
                 this.setState({
-                    myText7: myCode.slice(202, this.state.counter)
+                    myText7: myCode.slice(212, this.state.counter)
                 })
-            } else if (this.state.counter < 235 ){
+            } else if (this.state.counter < 245 ){
                 this.setState({
-                    myText8: myCode.slice(205, this.state.counter)
+                    myText8: myCode.slice(215, this.state.counter)
                 })
-            } else if (this.state.counter < 290 ){
+            } else if (this.state.counter < 300 ){
                 this.setState({
-                    myText9: myCode.slice(234, this.state.counter)
+                    myText9: myCode.slice(244, this.state.counter)
                 })
-            } else if (this.state.counter < 304 ){
+            } else if (this.state.counter < 314 ){
                 this.setState({
-                    myText10: myCode.slice(289, this.state.counter)
+                    myText10: myCode.slice(299, this.state.counter)
                 })
-            } else if (this.state.counter < 306 ){
+            } else if (this.state.counter < 316 ){
                 this.setState({
-                    myText11: myCode.slice(303, this.state.counter)
+                    myText11: myCode.slice(313, this.state.counter)
                 })
             }
             this.setState({
