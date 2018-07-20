@@ -2,9 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Tahoma, Arial, 'sans-serif'
 }
 .mainWidth {
   max-width: 1200px;
   margin: 0 auto;
+}
+@font-face {
+  font-family: 'Handlee';
+  src: url('../fonts/Handlee-Regular.eot');
+  src: local('../fonts/Handlee Regular'), local('../fonts/Handlee-Regular'),
+  url('../fonts/Handlee-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Handlee-Regular.woff2') format('woff2'),
+  url('../fonts/Handlee-Regular.woff') format('woff'),
+  url('../fonts/Handlee-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

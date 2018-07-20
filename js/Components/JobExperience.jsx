@@ -12,7 +12,7 @@ class JobExperience extends React.Component{
                                 <th colSpan='2'> DATE</th>
                                 <th>COMPANY</th>
                                 <th>POSITION</th>
-                                <th>DUTIES</th>
+                                <th>AREA OF RESPONSIBILITY</th>
                             </tr>
                         </thead>
                         <tbody>
