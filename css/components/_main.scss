@@ -151,4 +151,24 @@ section#body{
 
     }
   }
+  section#education {
+    padding: 1em;
+    padding-top: 1.5em;
+    background: linear-gradient(to right, map-get($colors, color1) 0%, white 100% ) ;
+    color: map-get($colors, color5);
+    ul {
+      li {
+        font-size: 0.8em;
+        margin-bottom: 1em;
+        span.data {
+          margin-right: 1em;
+          font-weight: bold;
+        }
+        span.important {
+          font-weight: bold;
+        }
+      }
+    }
+
+  }
 }

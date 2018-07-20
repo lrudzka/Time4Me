@@ -3,6 +3,7 @@ import Introduction from './Components/Introduction.jsx'
 import Portfolio from './Components/Portfolio.jsx'
 import Languages from './Components/Languages.jsx'
 import JobExperience from './Components/JobExperience.jsx'
+import Education from './Components/Education.jsx';
 
 class AboutMe extends React.Component{
     constructor(props){
@@ -135,6 +136,7 @@ class AboutMe extends React.Component{
                 <div style = {style3}  className="line"><div onClick = {this.handleClickLvl3} className="pointer">JOB EXPERIENCE</div></div>
                 {this.state.lvl3 ===1 && <JobExperience/>}
                 <div style = {style4}  className="line"><div onClick = {this.handleClickLvl4} className="pointer">EDUCATION</div></div>
+                {this.state.lvl4 ===1 && <Education/>}
                 <div style = {style5}  className="line"><div onClick = {this.handleClickLvl5} className="pointer">LANGUAGES</div></div>
                 {this.state.lvl5 ===1 && <Languages/>}
                 <div style = {style6}  className="line"><div onClick = {this.handleClickLvl6} className="pointer">HOBBIES</div></div>
