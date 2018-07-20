@@ -54,17 +54,9 @@ section#body{
         }
         div.link {
           float: left;
-          font-size: 0.6em;
-          margin-left: 10px;
           margin-right: 0.5em;
-          a, a:visited {
-            color: map-get($colors, color5);
-            background-color: map-get($colors, color3);
-            text-decoration: none;
-            padding: 0.2em;
-          }
         }
-        div.code {
+        div.code, div.link {
           font-size: 0.6em;
           margin-left: 10px;
           a, a:visited {
@@ -130,6 +122,31 @@ section#body{
     div#ger {
       color: map-get($colors, color3);
       margin-left: 4em;
+    }
+  }
+  section#jobExperience {
+    background-color: map-get($colors, color5);
+    padding: 1em;
+    table {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      font-size: 0.7em;
+      color: white;
+      tr {
+        th {
+          border-bottom: 1px solid white;
+        }
+        td {
+          padding-left: 0.5em;
+          padding-top: 0.5em;
+          border-bottom: 1px solid white;
+        }
+        td:nth-child(5) {
+          width: 40%;
+          text-align: justify;
+        }
+      }
+
     }
   }
 }

@@ -72,7 +72,7 @@ class Portfolio extends React.Component {
                                 Application for typing results of football metches
                             </div>
                             <div className="link">
-                                <a href="http://time4type.eu" target='_blank'> CLICK TO SEE THE SITE  </a>
+                                <a href="http://time4type.eu" target='_blank'> CLICK TO VISIT THE SITE  </a>
                             </div>
                             <div className='code'>
                                 <a href="https://github.com/lrudzka/Time4Type" target="_blank">  CLICK TO SEE THE CODE </a>
@@ -94,7 +94,7 @@ class Portfolio extends React.Component {
                                 Application based on the Master Mind board game
                             </div>
                             <div className="link">
-                                <a href="https://lrudzka.github.io/Time4Play/" target='_blank'> CLICK TO SEE THE SITE  </a>
+                                <a href="https://lrudzka.github.io/Time4Play/" target='_blank'> CLICK TO VISIT THE SITE  </a>
                             </div>
                             <div className='code'>
                                 <a href="https://github.com/lrudzka/Time4Play" target="_blank">  CLICK TO SEE THE CODE </a>
@@ -129,7 +129,7 @@ class Portfolio extends React.Component {
                                 An interactive animation based on a cellular automaton
                             </div>
                             <div className="link">
-                                <a href="https://github.com/lrudzka/Game-of-Life" target='_blank'> CLICK TO SEE THE SITE  </a>
+                                <a href="https://lrudzka.github.io/Game-of-Life/" target='_blank'> CLICK TO VISIT THE SITE  </a>
                             </div>
                             <div className='code'>
                                 <a href="https://github.com/lrudzka/Game-of-Life" target="_blank">  CLICK TO SEE THE CODE </a>
