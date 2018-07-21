@@ -1,13 +1,13 @@
 import React from 'react';
 
-class Hobbies extends React.Component {
+class MyStory extends React.Component {
 
     render(){
         return(
-            <section id="hobbies">
+            <section id="myStory">
                 <section className="mainWidth">
                     <div>
-                        my hobbies will come here soon...
+                        my story will come here soon
                     </div>
                 </section>
             </section>
@@ -15,4 +15,4 @@ class Hobbies extends React.Component {
     }
 }
 
-module.exports = Hobbies;
+module.exports = MyStory;

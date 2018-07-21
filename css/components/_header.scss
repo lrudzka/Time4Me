@@ -16,7 +16,7 @@ section#header {
   left: 0;
   right: 0;
   span.color {
-    color: #41D4CF;
+    color: map-get($colors, color3);
   }
 
 }

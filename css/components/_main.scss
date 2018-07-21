@@ -171,4 +171,12 @@ section#body{
     }
 
   }
+  section#hobbies {
+    padding: 1em;
+    background: linear-gradient(to right, map-get($colors, color1) 0%, white 100% ) ;
+  }
+  section#myStory {
+    padding: 1em;
+    font-family: Handlee;
+  }
 }
