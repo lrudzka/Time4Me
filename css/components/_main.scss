@@ -172,8 +172,20 @@ section#body{
 
   }
   section#hobbies {
+    font-family: Handlee;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
     padding: 1em;
     background: linear-gradient(to right, map-get($colors, color1) 0%, white 100% ) ;
+    div#sprite {
+      background-image: url("../img/skate.png");
+      background-size: 100% 100/28%;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      width: 412px;
+      height: 526px;
+    }
   }
   section#myStory {
     padding: 1em;

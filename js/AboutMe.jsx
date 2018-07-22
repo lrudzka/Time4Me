@@ -143,7 +143,7 @@ class AboutMe extends React.Component{
                 {this.state.lvl5 ===1 && <Languages/>}
                 <div style = {style6}  className="line"><div onClick = {this.handleClickLvl6} className="pointer">HOBBIES</div></div>
                 {this.state.lvl6 === 1 && <Hobbies/>}
-                <div style = {style7}  className="line"><div onClick = {this.handleClickLvl7} className="pointer">MY STORY</div></div>
+                <div style = {style7}  className="line"><div onClick = {this.handleClickLvl7} className="pointer">MY CODING STORY</div></div>
                 {this.state.lvl7 === 1 && <MyStory/>}
             </section>
         )

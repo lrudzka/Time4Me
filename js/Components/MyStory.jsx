@@ -7,7 +7,7 @@ class MyStory extends React.Component {
             <section id="myStory">
                 <section className="mainWidth">
                     <div>
-                        my story will come here soon
+                        my coding story will come here soon
                     </div>
                 </section>
             </section>
