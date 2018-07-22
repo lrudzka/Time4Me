@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="507d24a5-41c9-4df3-9662-b86d37d882d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/_main.scss" afterDir="false" />
-    </list>
+    <list default="true" id="507d24a5-41c9-4df3-9662-b86d37d882d9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/js/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/components/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="175" column="28" selection-start-line="175" selection-start-column="28" selection-end-line="175" selection-end-column="28" />
+              <caret line="175" column="19" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -45,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hobbies.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hobbies.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Components/Hobbies.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
@@ -152,10 +149,10 @@
         <option value="$PROJECT_DIR$/css/components/_footer.scss" />
         <option value="$PROJECT_DIR$/css/components/_header.scss" />
         <option value="$PROJECT_DIR$/js/Footer.jsx" />
-        <option value="$PROJECT_DIR$/css/components/_main.scss" />
         <option value="$PROJECT_DIR$/js/AboutMe.jsx" />
         <option value="$PROJECT_DIR$/js/Components/MyStory.jsx" />
         <option value="$PROJECT_DIR$/js/Components/Hobbies.jsx" />
+        <option value="$PROJECT_DIR$/css/components/_main.scss" />
       </list>
     </option>
   </component>
@@ -388,16 +385,15 @@
       <workItem from="1532117338900" duration="1844000" />
       <workItem from="1532166957755" duration="6460000" />
       <workItem from="1532173918135" duration="4000" />
-      <workItem from="1532287323148" duration="2896000" />
+      <workItem from="1532287323148" duration="3553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329978000" />
+    <option name="totallyTimeSpent" value="330635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1527" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24950884" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -602,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/components/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="175" column="28" selection-start-line="175" selection-start-column="28" selection-end-line="175" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/AboutMe.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -627,6 +616,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="40" column="123" selection-start-line="40" selection-start-column="123" selection-end-line="40" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="175" column="19" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
         </state>
       </provider>
     </entry>
