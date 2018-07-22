@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/js/Footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+              <caret line="62" column="129" selection-start-line="62" selection-start-column="129" selection-end-line="62" selection-end-column="129" />
             </state>
           </provider>
         </entry>
@@ -369,12 +369,12 @@
       <workItem from="1532173918135" duration="4000" />
       <workItem from="1532287323148" duration="3553000" />
       <workItem from="1532291179624" duration="410000" />
-      <workItem from="1532291967295" duration="708000" />
+      <workItem from="1532291967295" duration="1031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331753000" />
+    <option name="totallyTimeSpent" value="332076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1527" height="875" extended-state="6" />
@@ -606,7 +606,7 @@
     <entry file="file://$PROJECT_DIR$/js/Footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <caret line="62" column="129" selection-start-line="62" selection-start-column="129" selection-end-line="62" selection-end-column="129" />
         </state>
       </provider>
     </entry>
