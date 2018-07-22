@@ -24,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/components/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Footer.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Footer.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            <state relative-caret-position="435">
+              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -130,11 +130,11 @@
         <option value="$PROJECT_DIR$/js/Header.jsx" />
         <option value="$PROJECT_DIR$/css/components/_footer.scss" />
         <option value="$PROJECT_DIR$/css/components/_header.scss" />
-        <option value="$PROJECT_DIR$/js/Footer.jsx" />
         <option value="$PROJECT_DIR$/js/AboutMe.jsx" />
         <option value="$PROJECT_DIR$/js/Components/MyStory.jsx" />
         <option value="$PROJECT_DIR$/js/Components/Hobbies.jsx" />
         <option value="$PROJECT_DIR$/css/components/_main.scss" />
+        <option value="$PROJECT_DIR$/js/Footer.jsx" />
       </list>
     </option>
   </component>
@@ -369,18 +369,17 @@
       <workItem from="1532173918135" duration="4000" />
       <workItem from="1532287323148" duration="3553000" />
       <workItem from="1532291179624" duration="410000" />
-      <workItem from="1532291967295" duration="410000" />
+      <workItem from="1532291967295" duration="708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331455000" />
+    <option name="totallyTimeSpent" value="331753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1527" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24950884" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24950884" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.14014408" side_tool="true" visible="true" weight="0.275817" />
@@ -388,7 +387,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.85985595" visible="true" weight="0.275817" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.85985595" visible="true" weight="0.275817" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
@@ -576,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Footer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Components/Introduction.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -608,6 +600,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="190" column="17" lean-forward="true" selection-start-line="190" selection-start-column="17" selection-end-line="190" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
         </state>
       </provider>
     </entry>
