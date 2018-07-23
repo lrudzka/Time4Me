@@ -11,14 +11,14 @@ class Hobbies extends React.Component {
     componentDidMount() {
         let count=0;
         this.intervalId = setInterval( () => {
-            if (count>27) {
+            if (count>26) {
                 this.setState({
                     spritePosition: 0
                 })
                 count=0;
             } else {
                 this.setState({
-                    spritePosition: this.state.spritePosition - 244
+                    spritePosition: this.state.spritePosition - 254
             })
             }
             count++;

@@ -192,5 +192,12 @@ section#body{
   section#myStory {
     padding: 1em;
     font-family: Handlee;
+    span.color {
+      color: map-get($colors, color1);
+      font-weight: bold;
+    }
+    div {
+      margin-top: 1em;
+    }
   }
 }

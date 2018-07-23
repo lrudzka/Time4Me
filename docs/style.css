@@ -185,6 +185,11 @@ section#body {
   section#body section#myStory {
     padding: 1em;
     font-family: Handlee; }
+    section#body section#myStory span.color {
+      color: #25AAA0;
+      font-weight: bold; }
+    section#body section#myStory div {
+      margin-top: 1em; }
 
 footer {
   font-family: 'Handlee';
