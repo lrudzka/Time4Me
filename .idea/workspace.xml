@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="507d24a5-41c9-4df3-9662-b86d37d882d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/fonts/Handlee-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/fonts/Handlee-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/fonts/Handlee-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/fonts/Handlee-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/react.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/skate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/out.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" />
-    </list>
+    <list default="true" id="507d24a5-41c9-4df3-9662-b86d37d882d9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/js/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Footer.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Footer.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -71,12 +58,12 @@
         <entry file="file://$PROJECT_DIR$/css/components/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hobbies.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hobbies.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Components/Hobbies.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -389,12 +376,12 @@
       <workItem from="1532291967295" duration="1187000" />
       <workItem from="1532331885017" duration="1581000" />
       <workItem from="1532333493043" duration="155000" />
-      <workItem from="1532337347725" duration="3814000" />
+      <workItem from="1532337347725" duration="4179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337782000" />
+    <option name="totallyTimeSpent" value="338147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1527" height="875" extended-state="6" />
@@ -602,7 +589,7 @@
     <entry file="file://$PROJECT_DIR$/css/components/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -610,13 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="196" column="24" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Components/Hobbies.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -634,6 +614,13 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Components/Hobbies.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
