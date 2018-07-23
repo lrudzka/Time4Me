@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d24a5-41c9-4df3-9662-b86d37d882d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/skate.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/skate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Handlee-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Handlee-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Handlee-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Handlee-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/skate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/out.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/js/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,8 +58,8 @@
       <file leaf-file-name="Footer.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+            <state relative-caret-position="277">
+              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -380,12 +389,12 @@
       <workItem from="1532291967295" duration="1187000" />
       <workItem from="1532331885017" duration="1581000" />
       <workItem from="1532333493043" duration="155000" />
-      <workItem from="1532337347725" duration="3561000" />
+      <workItem from="1532337347725" duration="3814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337529000" />
+    <option name="totallyTimeSpent" value="337782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1527" height="875" extended-state="6" />
@@ -620,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        <state relative-caret-position="277">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
