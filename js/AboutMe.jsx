@@ -6,6 +6,7 @@ import JobExperience from './Components/JobExperience.jsx'
 import Education from './Components/Education.jsx';
 import Hobbies from './Components/Hobbies.jsx';
 import MyStory from './Components/MyStory.jsx';
+import Heart from '../img/heart.png';
 
 class AboutMe extends React.Component{
     constructor(props){
@@ -17,7 +18,8 @@ class AboutMe extends React.Component{
             lvl4: 0,
             lvl5: 0,
             lvl6: 0,
-            lvl7: 0
+            lvl7: 0,
+            heartSize: 1
         }
     }
 
@@ -102,6 +104,40 @@ class AboutMe extends React.Component{
         }
     }
 
+    componentDidMount() {
+        this.intervalId = setInterval(()=> {
+            let count = 0;
+            let changeSize = 'up';
+            this.intervalId1 = setInterval( ()=> {
+                console.log(count, this.state.heartSize);
+                if (count===11 || count===25) {
+                    changeSize = 'down'
+                }
+                if (count===18) {
+                    changeSize = 'up'
+                }
+                if (changeSize === 'up') {
+                    this.setState({
+                        heartSize : this.state.heartSize+0.05
+                    })
+                } else {
+                    this.setState({
+                        heartSize : this.state.heartSize - 0.05
+                    })
+                }
+                count++;
+                if (count>=36) {
+                    clearInterval(this.intervalId1)
+                }
+
+            } ,40)
+
+        }   ,10000)
+    }
+
+    componentWillUnmount(){
+        clearInterval(this.intervalId)
+    }
     render(){
 
         let style2;
@@ -128,9 +164,12 @@ class AboutMe extends React.Component{
         if (this.state.lvl6 ===1){
             style7 = {marginTop: 0}
         }
-        console.log('intro=', this.startIntroduction)
+        let heartStyle = {
+            transform: "scale("+this.state.heartSize+") translate(0, 0.7em) rotate(9deg)"
+        }
         return(
             <section id="body">
+                <div id="extraText"> I <img style={heartStyle} src={Heart} alt="love" title="love"></img> coding</div>
                 <div className="line"><div onClick = {this.handleClickLvl1} className="pointer">PREFACE</div></div>
                 {this.state.lvl1 ===1 && <Introduction start={this.startIntroduction} /> }
                 <div style = {style2}  className="line"><div onClick = {this.handleClickLvl2} className="pointer">MY PORTFOLIO</div></div>

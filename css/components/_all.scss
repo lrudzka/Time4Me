@@ -18,3 +18,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('../fonts/PermanentMarker-Regular.eot');
+  src: local('../fonts/Permanent Marker Regular'), local('../fonts/PermanentMarker-Regular'),
+  url('../fonts/PermanentMarker-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PermanentMarker-Regular.woff2') format('woff2'),
+  url('../fonts/PermanentMarker-Regular.woff') format('woff'),
+  url('../fonts/PermanentMarker-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -4,6 +4,21 @@ section#body{
   min-height: 92vh;
   font-size: 1.5em;
   color: #10206b;
+  div#extraText {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-left: 2em;
+    font-size: 1em;
+    color: map-get($colors, color4);
+    margin-bottom: -2em;
+    transform: translate(15em, 0.5em) rotate(15deg);
+    transform-origin: center;
+    font-family: 'Permanent Marker';
+    img {
+      width: 50px;
+    //  transform: translate(0, 0.7em) rotate(9deg);
+    }
+  }
   div.line {
     width: 100%;
     height: 0.3em;

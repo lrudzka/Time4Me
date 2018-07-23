@@ -16,7 +16,7 @@ class MyStory extends React.Component {
                     </div>
                     <div>
                         And why <span className="color">Front-end</span> ? While I was working with Oracle database I took care of forms and reports,
-                        so it was front-end of the system. And also - good cooperation with the customers is one of my skills, so Front-end was a natural
+                        so it was front-end of the system. And also - good cooperation with the customers and understanding for the customers needs is one of my skills, so Front-end was a natural
                         choice for me.
                     </div>
                 </section>
