@@ -178,8 +178,10 @@ section#body {
       background-size: 100% 100/28%;
       background-position: 0 0;
       background-repeat: no-repeat;
-      width: 412px;
-      height: 526px; }
+      width: 175px;
+      height: 244px;
+      border: 4px solid black;
+      margin-bottom: 1em; }
   section#body section#myStory {
     padding: 1em;
     font-family: Handlee; }
