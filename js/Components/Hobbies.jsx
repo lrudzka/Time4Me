@@ -1,4 +1,7 @@
 import React from 'react';
+import Sprite1 from '../../img/sprite1.png';
+import Sprite2 from '../../img/sprite2.png';
+
 
 class Hobbies extends React.Component {
     constructor(props){
@@ -44,8 +47,9 @@ class Hobbies extends React.Component {
     }
 
     render(){
+        let spriteSource = this.state.spriteSource==='1'? Sprite1: Sprite2;
         let style = {backgroundPosition: "0 "+this.state.spritePosition.toString()+'px',
-                     backgroundImage: "url(../img/sprite"+this.state.spriteSource+".png)"}
+            backgroundImage: "url("+spriteSource+")"}
         return(
             <section id="hobbies">
                 <section className="mainWidth">
