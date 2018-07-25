@@ -4,13 +4,14 @@ class Hobbies extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            spritePosition: 0
+            spritePosition: 0,
+            spriteSource: '1'
         }
     }
 
     componentDidMount() {
         let count=0;
-        this.intervalId = setInterval( () => {
+        this.intervalId1 = setInterval( () => {
             if (count>26) {
                 this.setState({
                     spritePosition: 0
@@ -24,14 +25,27 @@ class Hobbies extends React.Component {
             count++;
             console.log(count);
         } ,100)
+        this.intervalId2 = setInterval( () => {
+            if (this.state.spriteSource==='1') {
+                this.setState({
+                    spriteSource: '2'
+                })
+            } else {
+                this.setState({
+                    spriteSource: '1'
+                })
+            }
+        } ,10000)
     }
 
     componentWillUnmount() {
-        clearInterval(this.intervalId);
+        clearInterval(this.intervalId1);
+        clearInterval(this.intervalId2);
     }
 
     render(){
-        let style = {backgroundPosition: "0 "+this.state.spritePosition.toString()+'px'}
+        let style = {backgroundPosition: "0 "+this.state.spritePosition.toString()+'px',
+                     backgroundImage: "url(../img/sprite"+this.state.spriteSource+".png)"}
         return(
             <section id="hobbies">
                 <section className="mainWidth">

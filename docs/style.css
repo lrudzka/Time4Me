@@ -193,7 +193,6 @@ section#body {
     padding: 1em;
     background: linear-gradient(to right, #25AAA0 0%, white 100%); }
     section#body section#hobbies div#sprite {
-      background-image: url(images/skate.png);
       background-size: 100% 100/28%;
       background-position: 0 0;
       background-repeat: no-repeat;
