@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="507d24a5-41c9-4df3-9662-b86d37d882d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/skate.png" beforeDir="false" />
-    </list>
+    <list default="true" id="507d24a5-41c9-4df3-9662-b86d37d882d9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/js/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,8 +75,8 @@
       <file leaf-file-name="Hobbies.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Components/Hobbies.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            <state relative-caret-position="105">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -412,12 +408,12 @@
       <workItem from="1532355547538" duration="5839000" />
       <workItem from="1532417491419" duration="3000" />
       <workItem from="1532449736970" duration="28000" />
-      <workItem from="1532501371249" duration="370000" />
+      <workItem from="1532501371249" duration="938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="346216000" />
+    <option name="totallyTimeSpent" value="346784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1527" height="875" extended-state="6" />
@@ -655,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Components/Hobbies.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
