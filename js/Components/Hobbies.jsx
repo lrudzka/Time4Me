@@ -1,6 +1,7 @@
 import React from 'react';
 import Sprite1 from '../../img/sprite1.png';
 import Sprite2 from '../../img/sprite2.png';
+import Sprite3 from '../../img/sprite3.png';
 
 
 class Hobbies extends React.Component {
@@ -33,6 +34,10 @@ class Hobbies extends React.Component {
                 this.setState({
                     spriteSource: '2'
                 })
+            } else if (this.state.spriteSource==='2') {
+                this.setState({
+                    spriteSource: '3'
+                })
             } else {
                 this.setState({
                     spriteSource: '1'
@@ -47,7 +52,14 @@ class Hobbies extends React.Component {
     }
 
     render(){
-        let spriteSource = this.state.spriteSource==='1'? Sprite1: Sprite2;
+        let spriteSource;
+        if (this.state.spriteSource==='1') {
+            spriteSource = Sprite1;
+        } else if (this.state.spriteSource==='2') {
+            spriteSource = Sprite2;
+        } else {
+            spriteSource = Sprite3;
+        }
         let style = {backgroundPosition: "0 "+this.state.spritePosition.toString()+'px',
             backgroundImage: "url("+spriteSource+")"}
         return(

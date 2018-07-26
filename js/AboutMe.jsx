@@ -110,10 +110,10 @@ class AboutMe extends React.Component{
             let changeSize = 'up';
             this.intervalId1 = setInterval( ()=> {
                 console.log(count, this.state.heartSize);
-                if (count===11 || count===25) {
+                if ( (count>=11 && count<18) || count>=25) {
                     changeSize = 'down'
                 }
-                if (count===18) {
+                if (count>=18 && count<25) {
                     changeSize = 'up'
                 }
                 if (changeSize === 'up') {
