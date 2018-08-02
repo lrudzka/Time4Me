@@ -75,7 +75,7 @@ class Introduction extends React.Component {
                 counter: this.state.counter+1
             })
 
-        } ,100); }
+        } ,80); }
 
     }
 
