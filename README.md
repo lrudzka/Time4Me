@@ -1,6 +1,8 @@
 # Time4Me
 site About Me - created using React.
 
-The site is still in progress, but feel free to already visit my page. 
+You are welcome to visit my page - you can find there information about my skills.
 
-You can find there information about my skills.
+I have tried to put to the page all the necessery information, but I have also tried to make it clear, easy and nice to use. 
+
+Technologies: React, JavaScript, HTML5, CSS, Sass.

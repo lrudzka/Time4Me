@@ -67,7 +67,7 @@ class Hobbies extends React.Component {
                 <section className="mainWidth">
                     <div style = {style} id="sprite">
                     </div>
-                    <p>Yes - active life style is one of my hobbies. I will try to show here also the other ones - soon :-) </p>
+                    <p>Yes - active life style is one of my hobbies. I also love escape rooms and strategic board games. </p>
                 </section>
             </section>
         )
