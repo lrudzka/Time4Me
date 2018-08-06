@@ -108,28 +108,31 @@ class AboutMe extends React.Component{
         this.intervalId = setInterval(()=> {
             let count = 0;
             let changeSize = 'up';
+            this.setState({
+                heartSize: 1
+            })
+            clearInterval(this.intervalId1);
             this.intervalId1 = setInterval( ()=> {
-                console.log(count, this.state.heartSize);
-                if ( (count>=11 && count<18) || count>=25) {
-                    changeSize = 'down'
-                }
-                if (count>=18 && count<25) {
-                    changeSize = 'up'
-                }
-                if (changeSize === 'up') {
-                    this.setState({
-                        heartSize : this.state.heartSize+0.05
-                    })
+                if (count<36) {
+                    if ( (count>=11 && count<18) || count>=25) {
+                        changeSize = 'down'
+                    }
+                    if (count>=18 && count<25) {
+                        changeSize = 'up'
+                    }
+                    if (changeSize === 'up') {
+                        this.setState({
+                            heartSize : this.state.heartSize+0.05
+                        })
+                    } else {
+                        this.setState({
+                            heartSize : this.state.heartSize - 0.05
+                        })
+                    }
+                    count++;
                 } else {
-                    this.setState({
-                        heartSize : this.state.heartSize - 0.05
-                    })
+                    clearInterval(this.intervalId1);
                 }
-                count++;
-                if (count>=36) {
-                    clearInterval(this.intervalId1)
-                }
-
             } ,40)
 
         }   ,10000)
