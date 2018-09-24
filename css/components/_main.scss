@@ -82,7 +82,7 @@ section#body{
             padding: 0.2em;
           }
         }
-        div.react, div.js {
+        div.react, div.js, div.php {
           float: left;
           width: 1em;
           height: 1em;
@@ -94,6 +94,11 @@ section#body{
         }
         div.js {
           background-image: url("../img/js.png");
+        }
+        div.php {
+          background-image: url("../img/php.png");
+          background-size: contain;
+          background-repeat: no-repeat;
         }
         div.brief {
           font-size: 0.8em;

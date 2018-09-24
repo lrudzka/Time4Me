@@ -61,6 +61,18 @@ class Portfolio extends React.Component {
         }
     }
 
+    handleMoreInfo5 = () => {
+        if (this.state.more5 === 0) {
+            this.setState({
+                more5: 1
+            })
+        } else {
+            this.setState({
+                more5: 0
+            })
+        }
+    }
+
     componentDidMount() {
         this.intervalId = setInterval( () => {
             this.setState({
@@ -71,7 +83,7 @@ class Portfolio extends React.Component {
     };
 
     componentDidUpdate() {
-        if (this.state.li === 4) {
+        if (this.state.li === 5) {
             clearInterval(this.intervalId);
         }
     }
@@ -90,7 +102,7 @@ class Portfolio extends React.Component {
                             <div className="react"></div>
                             <h4>Time4Type</h4>
                             <div className='brief'>
-                                Application for typing results of football metches
+                                Application for typing results of football matches
                             </div>
                             <div className="link">
                                 <a href="http://time4type.eu" target='_blank'> CLICK TO VISIT THE SITE  </a>
@@ -101,10 +113,11 @@ class Portfolio extends React.Component {
                             {this.state.more1 ===1 &&
                             <div className='description'>
                                 I have created this application for my family, because my family is crazy about football.
-                                Every year we watch together Champions League tournament, and we type the metches' results.
+                                Every year we watch together Champions League tournament, and we type the matches' results.
                                 We have our own system of scoring, and I have implemented this scoring system to my application.
-                                We have typed using my application during the World Cup in Russia, and we will use the application during the incoming Champions League.
-                                It was a great pleasure to make something I'm really going to use.
+                                We have typed using my application during the World Cup in Russia. The application was to be changed for the Champions League 2018/2019,
+                                but I have created new version, as you can see below.
+                                It was a great pleasure to make something to my family's use.
                             </div>}
                             <button className="moreInfo" onClick={this.handleMoreInfo1}>{this.state.more1 === 0 ? <span>MORE</span> : <span>LESS</span>}</button>
                         </li>
@@ -146,27 +159,52 @@ class Portfolio extends React.Component {
                         </li>}
                         {this.state.li > 3 &&
                         <li>
-                            <div className="js"></div>
-                            <h4>GameOfLife</h4>
+                            <div className="php"></div>
+                            <h4>Time4Events</h4>
                             <div className='brief'>
-                                An interactive animation based on a cellular automaton
+                                An application for events managing
                             </div>
                             <div className="link">
-                                <a href="https://lrudzka.github.io/Game-of-Life/" target='_blank'> CLICK TO VISIT THE SITE  </a>
+                                <a href="http://events.mycoding.eu/" target='_blank'> CLICK TO VISIT THE SITE  </a>
                             </div>
                             <div className='code'>
-                                <a href="https://github.com/lrudzka/Game-of-Life" target="_blank">  CLICK TO SEE THE CODE </a>
+                                <a href="https://github.com/lrudzka/Time4Events" target="_blank">  CLICK TO SEE THE CODE </a>
                             </div>
                             {this.state.more4 === 1 &&
                             <div className='description'>
-                                The animation has been based on a cellular automaton invented in 1970 by British mathematic John Horton Conway.
-                                The action plays in the two-dimensional grid with cells, and each of the cells is in one of two possible states: dead or alive.
-                                At each step in time the cells can get alive or dead according to their 8 neighbours: any live cell with fewer than two live neighbors dies, as if by under population;
-                                any live cell with two or three live neighbors lives on to the next generation; any live cell with more than three live neighbors dies, as if by overpopulation;
-                                any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction. The user interacts with the animation by setting up the start state, or by changing
-                                the current state while the game is paused. I have created the application using object-oriented JavaScript.
+                                The goal of this project was to learn and practice using PHP and mySQL database.
+                                The basic principles of the application: events are to be added by a logged user;
+                                a logged user can update or delete his own events - as long as they are still actual;
+                                everyone can view the list of events - the actual events list or the archive events list;
+                                both lists of events can be filtered - by keyword, by province, by city, by category and by dates;
+                                everyone can add new user account to the database to be able to log in to the application and to use of all the functionality.
+                                Connections to the mySQL database are established by creating instances of the PDO base class.
+                                Users' passwords are hashed, and the database is protected against sql injection.
+
                             </div>}
                             <button className="moreInfo" onClick={this.handleMoreInfo4}>{this.state.more4 === 0 ? <span>MORE</span> : <span>LESS</span>}</button>
+                        </li>}
+                        {this.state.li>4 && <li>
+                            <div className="php"></div>
+                            <h4>Time4Type - PHP & mySQL</h4>
+                            <div className='brief'>
+                                Application for typing results of football matches - PHP & mySQL version
+                            </div>
+                            <div className="link">
+                                <a href="http://types.mycoding.eu/" target='_blank'> CLICK TO VISIT THE SITE  </a>
+                            </div>
+                            <div className='code'>
+                                <a href="https://github.com/lrudzka/Time4Type-PHP" target="_blank">  CLICK TO SEE THE CODE </a>
+                            </div>
+                            {this.state.more5 === 1 &&
+                            <div className='description'>
+                                The goal of this project was to learn and practice using PHP and mySQL database, but also to create better version of my Time4Type application.
+                                The basic principles of the application are the same as in the first version: it works for the selected football event - which now is the Champions League 2018/2019,
+                                user can score 3 points for the correctly typed result of the match, or 1 point for the correctly typed winner or equal result of the match.
+                                Page is fully responsive, there should be no troubles in accessing it on any device. The application is protected against sql injection, and also against bots.
+                                This version of the application is more user-friendly and better-looking than the first one.
+                            </div>}
+                            <button className="moreInfo" onClick={this.handleMoreInfo5}>{this.state.more5 === 0 ? <span>MORE</span> : <span>LESS</span>}</button>
                         </li>}
                     </ul>
                 </section>

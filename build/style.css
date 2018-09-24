@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.mainWidth {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: 'Handlee';
+  src: url(fonts/Handlee-Regular.eot);
+  src: local("../fonts/Handlee Regular"), local("../fonts/Handlee-Regular"), url(fonts/Handlee-Regular.eot?#iefix) format("embedded-opentype"), url(fonts/Handlee-Regular.woff2) format("woff2"), url(fonts/Handlee-Regular.woff) format("woff"), url(fonts/Handlee-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url(fonts/PermanentMarker-Regular.eot);
+  src: local("../fonts/Permanent Marker Regular"), local("../fonts/PermanentMarker-Regular"), url(fonts/PermanentMarker-Regular.eot?#iefix) format("embedded-opentype"), url(fonts/PermanentMarker-Regular.woff2) format("woff2"), url(fonts/PermanentMarker-Regular.woff) format("woff"), url(fonts/PermanentMarker-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+section#header {
+  font-family: 'Handlee';
+  z-index: 1;
+  font-size: 3em;
+  width: 100%;
+  height: 8vh;
+  background-color: #10206b;
+  color: #b9b9b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; }
+  section#header span.color {
+    color: #41D4CF; }
+
+section#body {
+  font-family: Tahoma, Arial, 'sans-serif';
+  padding-top: 8vh;
+  min-height: 92vh;
+  font-size: 1.5em;
+  color: #10206b; }
+  section#body div#extraText {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-left: 2em;
+    font-size: 1em;
+    color: #b9b9b9;
+    margin-bottom: -2em;
+    transform: translate(15em, 0.5em) rotate(15deg);
+    transform-origin: center;
+    font-family: 'Permanent Marker'; }
+    section#body div#extraText img {
+      width: 50px; }
+  section#body div.line {
+    width: 100%;
+    height: 0.3em;
+    background-color: #66C3BC;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    section#body div.line div.pointer {
+      width: 14em;
+      border-radius: 1em;
+      height: 3em;
+      position: relative;
+      background-color: #66C3BC;
+      cursor: pointer;
+      color: white;
+      font-size: 0.8em;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+  section#body section#introduction {
+    font-weight: 700;
+    padding-top: 1em;
+    padding-left: 1em;
+    height: 18em;
+    background: linear-gradient(to right, #25AAA0 0%, white 100%); }
+    section#body section#introduction div.row {
+      float: clear;
+      margin-bottom: 0.3em; }
+      section#body section#introduction div.row div.tab {
+        float: left;
+        width: 2em;
+        height: 0.5em; }
+  section#body section#portfolio {
+    padding: 1em;
+    background: linear-gradient(to right, #b9b9b9 0%, white 100%); }
+    section#body section#portfolio ul {
+      list-style-type: none; }
+      section#body section#portfolio ul li {
+        margin-top: 1em; }
+        section#body section#portfolio ul li h4 {
+          margin-bottom: 0.3em;
+          margin-right: 0.4em; }
+        section#body section#portfolio ul li div.link {
+          float: left;
+          margin-right: 0.5em; }
+        section#body section#portfolio ul li div.code, section#body section#portfolio ul li div.link {
+          font-size: 0.6em;
+          margin-left: 10px; }
+          section#body section#portfolio ul li div.code a, section#body section#portfolio ul li div.code a:visited, section#body section#portfolio ul li div.link a, section#body section#portfolio ul li div.link a:visited {
+            background-color: #41D4CF;
+            color: #10206b;
+            text-decoration: none;
+            padding: 0.2em; }
+        section#body section#portfolio ul li div.react, section#body section#portfolio ul li div.js, section#body section#portfolio ul li div.php {
+          float: left;
+          width: 1em;
+          height: 1em;
+          margin-right: 0.2em;
+          background-size: cover; }
+        section#body section#portfolio ul li div.react {
+          background-image: url(images/react.png); }
+        section#body section#portfolio ul li div.js {
+          background-image: url(images/js.png); }
+        section#body section#portfolio ul li div.php {
+          background-image: url(images/php.png);
+          background-size: contain;
+          background-repeat: no-repeat; }
+        section#body section#portfolio ul li div.brief {
+          font-size: 0.8em;
+          font-weight: bold;
+          margin-bottom: 0.5em;
+          margin-top: 0.4em;
+          margin-left: 10px; }
+        section#body section#portfolio ul li div.description {
+          font-family: 'Handlee';
+          font-size: 0.8em;
+          text-align: justify;
+          margin-top: 0.5em;
+          margin-left: 10px; }
+        section#body section#portfolio ul li button.moreInfo {
+          width: 5em;
+          height: 1.5em;
+          background-color: #25AAA0;
+          border-radius: 0.5em;
+          color: white;
+          margin-left: 10px;
+          margin-top: 5px; }
+  section#body section#languages {
+    padding: 1em;
+    background-color: #10206b; }
+    section#body section#languages div {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em; }
+    section#body section#languages div#pl {
+      color: #25AAA0; }
+    section#body section#languages div#eng {
+      color: #66C3BC;
+      margin-left: 2em; }
+    section#body section#languages div#ger {
+      color: #41D4CF;
+      margin-left: 4em; }
+  section#body section#jobExperience {
+    background-color: #10206b;
+    padding: 1em; }
+    section#body section#jobExperience table {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      font-size: 0.7em;
+      color: white; }
+      section#body section#jobExperience table tr th {
+        border-bottom: 1px solid white; }
+      section#body section#jobExperience table tr td {
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        border-bottom: 1px solid white; }
+      section#body section#jobExperience table tr td:nth-child(5) {
+        width: 40%;
+        text-align: justify; }
+  section#body section#education {
+    padding: 1em;
+    padding-top: 1.5em;
+    background: linear-gradient(to right, #25AAA0 0%, white 100%);
+    color: #10206b; }
+    section#body section#education ul li {
+      font-size: 0.8em;
+      margin-bottom: 1em; }
+      section#body section#education ul li span.data {
+        margin-right: 1em;
+        font-weight: bold; }
+      section#body section#education ul li span.important {
+        font-weight: bold; }
+  section#body section#hobbies {
+    font-family: Handlee;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background: linear-gradient(to right, #25AAA0 0%, white 100%); }
+    section#body section#hobbies div#sprite {
+      background-size: 100% 100/28%;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      width: 175px;
+      height: 244px;
+      border: 4px solid black;
+      margin-bottom: 1em; }
+  section#body section#myStory {
+    padding: 1em;
+    font-family: Handlee; }
+    section#body section#myStory span.color {
+      color: #25AAA0;
+      font-weight: bold; }
+    section#body section#myStory div {
+      margin-top: 1em; }
+
+footer {
+  font-family: 'Handlee';
+  height: 8vh;
+  background-color: #10206b;
+  border-bottom: 1px solid black;
+  font-size: 1.5em;
+  color: white;
+  padding-left: 2em;
+  padding-top: 0.2em; }
+  footer section.footerBox {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; }
+    footer section.footerBox span.color {
+      color: #41D4CF; }
+    footer section.footerBox div:nth-child(2) {
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      footer section.footerBox div:nth-child(2) img {
+        width: 2em;
+        height: 2em;
+        margin-left: 1em; }
+
